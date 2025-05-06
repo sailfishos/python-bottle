@@ -1,0 +1,18 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Pami Ketolainen <pami.ketolainen@jolla.com>
+Date: Tue, 6 May 2025 14:42:21 +0300
+Subject: [PATCH] Remove shebang
+
+---
+ bottle.py | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/bottle.py b/bottle.py
+index 7b50034076c7a87f98a10937b9b2650b2f9ce5c3..41342ef62dc47909dced158b6cc7dfa8c79b7f1a 100755
+--- a/bottle.py
++++ b/bottle.py
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env python
+ # -*- coding: utf-8 -*-
+ """
+ Bottle is a fast and simple micro-framework for small web applications. It
